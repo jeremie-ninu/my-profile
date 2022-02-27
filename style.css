@@ -1,0 +1,111 @@
+body{
+	background-color:rgb(246, 248, 257);
+	color:rgb(9, 106, 157);
+	font-family: font-family: 'Volkhov', serif;;
+
+}
+
+
+h1,h2{
+	font-family: font-family: 'Vidaloka', serif;
+
+
+}
+
+h1{
+	color: rgb(257, 128, 105);
+	font-weight: 1OO;
+	letter-spacing: 3px;
+	font-size: 40px;
+	font-weight:bolder;
+}
+
+h2{
+	color: rgb(257, 128, 105);
+	font-weight: 1OO;
+	letter-spacing: 3px;
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(164, 215, 244);
+}
+
+a:hover{
+	color: purple;
+}
+
+
+
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+
+}
+
+@media(max-width:  500px){
+	.container{
+		width: 250px;
+	}
+}
+
+
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color:rgb(162, 213, 242);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color:purple;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+}
+
+.list-inline i:hover{
+	color: purple;
+}
+
+#introduction p {
+	margin: 40px;
+}
+
+	
+
+
+
+
+
